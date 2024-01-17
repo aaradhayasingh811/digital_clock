@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik+Doodle+Shadow&display=swap');
+
+.container{
+    border: 2px solid black;
+    background-color: rgb(13, 5, 57);
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+#to_show{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.row > .hour,.min,.sec{
+    /* background-color: aqua; */
+    height:10vh;
+}
+
+  @media only screen and (max-width: 480px) {
+    #to_show {
+      font-size: 3rem;
+    }
+  }
